@@ -5,6 +5,7 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using AvaloniaCRUD.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace AvaloniaCRUD.UserControls;
 

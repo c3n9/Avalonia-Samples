@@ -11,8 +11,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        var page1 = new AllUsersUC();
-        MainControl.Content = page1;
+        MainControl.Content = new AllUsersUC();
     }
 
 }

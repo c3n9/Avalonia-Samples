@@ -6,6 +6,8 @@
         <entry key="AvaloniaCRUD/App.axaml" value="AvaloniaCRUD/AvaloniaCRUD.csproj" />
         <entry key="AvaloniaCRUD/MainWindow.axaml" value="AvaloniaCRUD/AvaloniaCRUD.csproj" />
         <entry key="AvaloniaCRUD/UserControls/AddUC.axaml" value="AvaloniaCRUD/AvaloniaCRUD.csproj" />
+        <entry key="AvaloniaCRUD/UserControls/AddUserUC.axaml" value="AvaloniaCRUD/AvaloniaCRUD.csproj" />
+        <entry key="AvaloniaCRUD/UserControls/AllUsersUC.axaml" value="AvaloniaCRUD/AvaloniaCRUD.csproj" />
       </map>
     </option>
   </component>
