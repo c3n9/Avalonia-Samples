@@ -1,0 +1,58 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:userControls="clr-namespace:AvaloniaCRUD.UserControls"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="AvaloniaCRUD.UserControls.AllUsersUC"
+             x:DataType="userControls:AllUsersUC">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal"
+                    Grid.ColumnSpan="2">
+            <Button x:Name="BAdd"
+                    Content="Add"
+                    Click="BAdd_OnClick" />
+            <Button x:Name="BEdit"
+                    Content="Edit"
+                    Click="BEdit_OnClick" />
+            <Button x:Name="BRemove"
+                    Content="Remove"
+                    Click="BRemove_OnClick" />
+        </StackPanel>
+        <ItemsControl Grid.Row="1" x:Name="ICRoles"
+                      ItemsSource="{Binding Roles}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border CornerRadius="10"
+                            BorderThickness="3"
+                            BorderBrush="Blue">
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name, Mode=OneWay}"
+                                       HorizontalAlignment="Center">
+                            </TextBlock>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <DataGrid ItemsSource="{Binding Roles}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  Grid.Column="1"
+                  Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id, Mode=OneWay}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=OneWay}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+
+</UserControl>
