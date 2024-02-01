@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[11.0.6, )"
             },
+            "Avalonia.Controls.DataGrid": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
             "Avalonia.Desktop": {
               "target": "Package",
               "version": "[11.0.6, )"
@@ -61,6 +65,10 @@
               "target": "Package",
               "version": "[11.0.6, )"
             },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.0.6, )"
@@ -68,10 +76,6 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.0, )"
-            },
-            "ReactiveUI": {
-              "target": "Package",
-              "version": "[19.5.41, )"
             }
           },
           "imports": [

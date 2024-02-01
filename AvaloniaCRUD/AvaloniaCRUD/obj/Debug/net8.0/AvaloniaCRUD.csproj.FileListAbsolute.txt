@@ -20,12 +20,14 @@ C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.Fonts.Inter.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.FreeDesktop.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.Native.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.ReactiveUI.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.Remote.Protocol.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.Skia.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.Themes.Fluent.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.Themes.Simple.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.Win32.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Avalonia.X11.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\DynamicData.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\HarfBuzzSharp.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\MicroCom.Runtime.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -47,9 +49,12 @@ C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Microsof
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Npgsql.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\ReactiveUI.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\SkiaSharp.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Splat.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\System.Reactive.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Tmds.DBus.Protocol.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -133,6 +138,7 @@ C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\Avalonia
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.AssemblyInfoInputs.cache
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.AssemblyInfo.cs
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.csproj.CoreCompileInputs.cache
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.sourcelink.json
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\Avalonia\references
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\Avalonia\original.dll
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\Avalonia\original.pdb
@@ -143,8 +149,3 @@ C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\Avalonia
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.csproj.CopyComplete
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.genruntimeconfig.cache
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\ref\AvaloniaCRUD.dll
-C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\DynamicData.dll
-C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\ReactiveUI.dll
-C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Splat.dll
-C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\System.Reactive.dll
-C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.sourcelink.json

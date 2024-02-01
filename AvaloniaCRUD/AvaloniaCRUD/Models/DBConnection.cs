@@ -2,8 +2,8 @@
 
 namespace AvaloniaCRUD.Models;
 
-public class GlobalSettings : DbContext
-{ 
+public class DBConnection : DbContext
+{
     public DbSet<Role> Role { get; set; }
     public DbSet<User> User { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

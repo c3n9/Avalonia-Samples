@@ -3,17 +3,16 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using AvaloniaCRUD.Models;
 using ReactiveUI;
-
 namespace AvaloniaCRUD.ViewModels;
 
-public partial class RoleViewModel : ReactiveObject
+public class RoleViewModel : ReactiveObject
 {
-    private Role _role;
-    public Role Role
-    {
-        get => _role;
-        set => this.RaiseAndSetIfChanged(ref _role, value);
-    }
+    // private Role _role;
+    // public Role Role
+    // {
+    //     get => _role;
+    //     set => this.RaiseAndSetIfChanged(ref _role, value);
+    // }
     private ObservableCollection<Role> _roles;
     public ObservableCollection<Role> Roles
     {
@@ -30,7 +29,7 @@ public partial class RoleViewModel : ReactiveObject
     {
         try
         {
-            using (var context = new GlobalSettings())
+            using (var context = new DBConnection())
             {
                 Roles.Clear();
                 var roles = context.Role.ToList();

@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using ReactiveUI;
 
 namespace AvaloniaCRUD.ViewModels;
 
-public class ViewModelBase : INotifyPropertyChanged
+public class ViewModelBase : ReactiveObject
 {
     public event PropertyChangedEventHandler PropertyChanged;
 
