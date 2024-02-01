@@ -143,3 +143,8 @@ C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\Avalonia
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.csproj.CopyComplete
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.genruntimeconfig.cache
 C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\ref\AvaloniaCRUD.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\DynamicData.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\ReactiveUI.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\Splat.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\obj\Debug\net8.0\AvaloniaCRUD.sourcelink.json

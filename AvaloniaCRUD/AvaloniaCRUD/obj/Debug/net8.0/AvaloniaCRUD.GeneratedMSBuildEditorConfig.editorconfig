@@ -22,9 +22,3 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/quart/RiderProjects/AvaloniaCRUD/AvaloniaCRUD/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
-[C:/Users/quart/RiderProjects/AvaloniaCRUD/AvaloniaCRUD/UserControls/AddUserUC.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
-[C:/Users/quart/RiderProjects/AvaloniaCRUD/AvaloniaCRUD/UserControls/AllUsersUC.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

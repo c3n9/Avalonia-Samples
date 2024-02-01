@@ -68,6 +68,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[19.5.41, )"
             }
           },
           "imports": [

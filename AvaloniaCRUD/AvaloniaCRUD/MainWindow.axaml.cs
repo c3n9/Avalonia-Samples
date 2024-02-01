@@ -2,7 +2,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using Avalonia.Controls;
 using AvaloniaCRUD.Models;
-using AvaloniaCRUD.UserControls;
+using AvaloniaCRUD.ViewModels;
 
 namespace AvaloniaCRUD;
 
@@ -11,7 +11,6 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        MainControl.Content = new AllUsersUC();
+        DataContext = new MainWindowViewModel();
     }
-
 }

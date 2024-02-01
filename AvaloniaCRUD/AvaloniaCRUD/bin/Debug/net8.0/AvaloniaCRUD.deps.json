@@ -13,7 +13,8 @@
           "Avalonia.Diagnostics": "11.0.6",
           "Avalonia.Fonts.Inter": "11.0.6",
           "Avalonia.Themes.Fluent": "11.0.6",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+          "ReactiveUI": "19.5.41"
         },
         "runtime": {
           "AvaloniaCRUD.dll": {}
@@ -24,7 +25,7 @@
           "Avalonia.BuildServices": "0.0.29",
           "Avalonia.Remote.Protocol": "11.0.6",
           "MicroCom.Runtime": "0.11.0",
-          "System.ComponentModel.Annotations": "4.5.0"
+          "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
           "lib/net6.0/Avalonia.Base.dll": {
@@ -256,6 +257,17 @@
           "lib/net6.0/Avalonia.X11.dll": {
             "assemblyVersion": "11.0.6.0",
             "fileVersion": "11.0.6.0"
+          }
+        }
+      },
+      "DynamicData/8.3.27": {
+        "dependencies": {
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/DynamicData.dll": {
+            "assemblyVersion": "8.3.0.0",
+            "fileVersion": "8.3.27.26536"
           }
         }
       },
@@ -751,6 +763,20 @@
           }
         }
       },
+      "ReactiveUI/19.5.41": {
+        "dependencies": {
+          "DynamicData": "8.3.27",
+          "Splat": "14.8.12",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.Text.Json": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/ReactiveUI.dll": {
+            "assemblyVersion": "19.5.0.0",
+            "fileVersion": "19.5.41.25387"
+          }
+        }
+      },
       "SkiaSharp/2.88.6": {
         "dependencies": {
           "SkiaSharp.NativeAssets.Win32": "2.88.6",
@@ -819,6 +845,14 @@
           }
         }
       },
+      "Splat/14.8.12": {
+        "runtime": {
+          "lib/net8.0/Splat.dll": {
+            "assemblyVersion": "14.8.0.0",
+            "fileVersion": "14.8.12.56860"
+          }
+        }
+      },
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
@@ -827,7 +861,7 @@
         }
       },
       "System.Collections.Immutable/5.0.0": {},
-      "System.ComponentModel.Annotations/4.5.0": {},
+      "System.ComponentModel.Annotations/5.0.0": {},
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
@@ -943,6 +977,14 @@
           "System.Threading": "4.3.0"
         }
       },
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
@@ -1049,6 +1091,12 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
           "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        }
+      },
+      "System.Text.Encodings.Web/8.0.0": {},
+      "System.Text.Json/8.0.0": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "8.0.0"
         }
       },
       "System.Threading/4.3.0": {
@@ -1195,6 +1243,13 @@
       "sha512": "sha512-SBS3R1roDLZnnykbltu8q/8RkKACSDi1pOOvKKswa0CjauehIMcK8X1XdCjQDXN+SAWbNOzQHDU5g31a4SNS+Q==",
       "path": "avalonia.x11/11.0.6",
       "hashPath": "avalonia.x11.11.0.6.nupkg.sha512"
+    },
+    "DynamicData/8.3.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m5PGnTbFCE04xrH3peeNtiHrXJM5Vxk6Sy9bwXm8ahZ+/ZavqYb8XstBD1GFqcU7g6f8YD3zPcI7XkkW3Y1Ang==",
+      "path": "dynamicdata/8.3.27",
+      "hashPath": "dynamicdata.8.3.27.nupkg.sha512"
     },
     "HarfBuzzSharp/7.3.0": {
       "type": "package",
@@ -1406,6 +1461,13 @@
       "path": "npgsql.entityframeworkcore.postgresql/8.0.0",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512"
     },
+    "ReactiveUI/19.5.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qusIoJHhzNFm/Ei52wwesy15le/NAMWm40UOz2boaWcBntqOJJPR6YucDUibHNo5v9opNP7ZCAMa+w3rzX6AIw==",
+      "path": "reactiveui/19.5.41",
+      "hashPath": "reactiveui.19.5.41.nupkg.sha512"
+    },
     "SkiaSharp/2.88.6": {
       "type": "package",
       "serviceable": true,
@@ -1441,6 +1503,13 @@
       "path": "skiasharp.nativeassets.win32/2.88.6",
       "hashPath": "skiasharp.nativeassets.win32.2.88.6.nupkg.sha512"
     },
+    "Splat/14.8.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7dTp+hgC2CS4DqjHtgkeS7hsECbpD09ukGwxL63HVM/aih9zseIaIjWhS6sQWlWw5GDvli8bVMHeZ1dekgmuvQ==",
+      "path": "splat/14.8.12",
+      "hashPath": "splat.14.8.12.nupkg.sha512"
+    },
     "System.Collections/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1455,12 +1524,12 @@
       "path": "system.collections.immutable/5.0.0",
       "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
     },
-    "System.ComponentModel.Annotations/4.5.0": {
+    "System.ComponentModel.Annotations/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
-      "path": "system.componentmodel.annotations/4.5.0",
-      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
     },
     "System.Diagnostics.Debug/4.3.0": {
       "type": "package",
@@ -1538,6 +1607,13 @@
       "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "path": "system.objectmodel/4.3.0",
       "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
@@ -1650,6 +1726,20 @@
       "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
       "path": "system.text.encoding.codepages/4.5.1",
       "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
+      "path": "system.text.json/8.0.0",
+      "hashPath": "system.text.json.8.0.0.nupkg.sha512"
     },
     "System.Threading/4.3.0": {
       "type": "package",
