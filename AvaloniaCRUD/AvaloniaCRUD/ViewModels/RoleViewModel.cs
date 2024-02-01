@@ -7,12 +7,12 @@ namespace AvaloniaCRUD.ViewModels;
 
 public class RoleViewModel : ReactiveObject
 {
-    // private Role _role;
-    // public Role Role
-    // {
-    //     get => _role;
-    //     set => this.RaiseAndSetIfChanged(ref _role, value);
-    // }
+    private Role _role;
+    public Role Role
+    {
+        get => _role;
+        set => this.RaiseAndSetIfChanged(ref _role, value);
+    }
     private ObservableCollection<Role> _roles;
     public ObservableCollection<Role> Roles
     {

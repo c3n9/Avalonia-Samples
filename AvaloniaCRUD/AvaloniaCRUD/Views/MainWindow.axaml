@@ -27,9 +27,10 @@
             <Button x:Name="BEdit"
                     Content="Edit"></Button>
             <Button x:Name="BRemove"
-                    Content="Remove"></Button>
+                    Content="Remove"
+                    Command="{Binding NavigateToAddUserCommand}"></Button>
         </StackPanel>
-        <ItemsControl ItemsSource="{Binding RoleVM.Roles}"
+        <ItemsControl ItemsSource="{Binding UserVM.Users}"
                       Grid.Row="1">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
@@ -40,6 +41,8 @@
                             <TextBlock Text="{Binding Id, Mode=OneWay}"
                                        HorizontalAlignment="Center"></TextBlock>
                             <TextBlock Text="{Binding Name, Mode=OneWay}"
+                                       HorizontalAlignment="Center" />
+                            <TextBlock Text="{Binding RoleId, Mode=OneWay}"
                                        HorizontalAlignment="Center" />
                         </StackPanel>
                     </Border>
