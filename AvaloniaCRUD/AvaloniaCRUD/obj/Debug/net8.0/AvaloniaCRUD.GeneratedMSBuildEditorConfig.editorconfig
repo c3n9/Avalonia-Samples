@@ -13,15 +13,15 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaloniaCRUD
-build_property.ProjectDir = C:\Users\quart\RiderProjects\AvaloniaCRUD\AvaloniaCRUD\
+build_property.ProjectDir = D:\Projects\Avalonia-Directory\AvaloniaCRUD\AvaloniaCRUD\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/quart/RiderProjects/AvaloniaCRUD/AvaloniaCRUD/App.axaml]
+[D:/Projects/Avalonia-Directory/AvaloniaCRUD/AvaloniaCRUD/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/quart/RiderProjects/AvaloniaCRUD/AvaloniaCRUD/Views/AddUserUC.axaml]
+[D:/Projects/Avalonia-Directory/AvaloniaCRUD/AvaloniaCRUD/Views/AddUserUC.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/quart/RiderProjects/AvaloniaCRUD/AvaloniaCRUD/Views/MainWindow.axaml]
+[D:/Projects/Avalonia-Directory/AvaloniaCRUD/AvaloniaCRUD/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

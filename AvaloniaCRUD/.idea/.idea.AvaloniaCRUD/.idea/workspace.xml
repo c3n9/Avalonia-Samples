@@ -8,32 +8,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8c65453-4375-41dc-a48e-8519a65ba257" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/UserViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvaloniaCRUD/Views/AddUserUC.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvaloniaCRUD/Views/AddUserUC.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/avalonia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/RoleViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/RoleViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/Views/MainWindow.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/AvaloniaCRUD.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/AvaloniaCRUD.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/AvaloniaCRUD.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/AvaloniaCRUD.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/references" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/references" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/ref/AvaloniaCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/ref/AvaloniaCRUD.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/refint/AvaloniaCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/refint/AvaloniaCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +51,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/bf5e279d9239bfef5bb1b8d6212f1b971c434606/src/libraries/System.Private.CoreLib/src/System/Nullable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4c75a39152c6ea672be27a386dbf424c0f2d222d51114dffb436ecd6b570ce/RxApp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/81d12998a2b0f1d072b9e6edfb2611ade9fd8782e48a547faaedd88587fbc59/ReactiveCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b430e084ab33d5b318f28876dedabb8aa879f7f7b6e60df3a5da1dd196ecda2/Window.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/da6d564bf3d455d995dcc8e9d1734f8481e9266bbea87871554fd8acb9553/AvaloniaLocator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fbfe3b93cd101dfdeaba8ad0afad234e6c7b5f325b4ee8e682c23ebdc7919617/PlatformManager.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2blFt6b2QjVRGKrJIZ8uxNuXCyS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -68,9 +84,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\quart\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\quart\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\quart\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\C3n9\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\C3n9\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\C3n9\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -103,11 +119,24 @@
       <option name="presentableId" value="Default" />
       <updated>1706781971917</updated>
       <workItem from="1706781973591" duration="4413000" />
+      <workItem from="1706791545949" duration="55000" />
+      <workItem from="1706791636366" duration="3440000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

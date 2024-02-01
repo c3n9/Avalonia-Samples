@@ -28,7 +28,7 @@
                     Content="Edit"></Button>
             <Button x:Name="BRemove"
                     Content="Remove"
-                    Command="{Binding NavigateToAddUserCommand}"></Button>
+                    Command="{Binding SubmitCommand}"></Button>
         </StackPanel>
         <ItemsControl ItemsSource="{Binding UserVM.Users}"
                       Grid.Row="1">
