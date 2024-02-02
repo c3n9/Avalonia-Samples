@@ -7,6 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="b8c65453-4375-41dc-a48e-8519a65ba257" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/workspace.xml" afterDir="false" />
@@ -43,6 +44,9 @@
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.restore.info" afterDir="false" />
     </list>
+=======
+    <list default="true" id="b8c65453-4375-41dc-a48e-8519a65ba257" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,9 +122,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706781971917</updated>
+<<<<<<< Updated upstream
       <workItem from="1706781973591" duration="4413000" />
       <workItem from="1706791545949" duration="55000" />
       <workItem from="1706791636366" duration="3440000" />
+=======
+      <workItem from="1706781973591" duration="4475000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

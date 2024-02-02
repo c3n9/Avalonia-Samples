@@ -5,13 +5,13 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\C3n9\.nuget\packages\;D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\quart\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.8.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\C3n9\.nuget\packages\" />
-    <SourceRoot Include="D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Users\quart\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.6\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.6\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props')" />
@@ -20,8 +20,8 @@
     <Import Project="$(NuGetPackageRoot)avalonia\11.0.6\buildTransitive\Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia\11.0.6\buildTransitive\Avalonia.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\C3n9\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
-    <PkgAvalonia_BuildServices Condition=" '$(PkgAvalonia_BuildServices)' == '' ">C:\Users\C3n9\.nuget\packages\avalonia.buildservices\0.0.29</PkgAvalonia_BuildServices>
-    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\C3n9\.nuget\packages\avalonia\11.0.6</PkgAvalonia>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\quart\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgAvalonia_BuildServices Condition=" '$(PkgAvalonia_BuildServices)' == '' ">C:\Users\quart\.nuget\packages\avalonia.buildservices\0.0.29</PkgAvalonia_BuildServices>
+    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\quart\.nuget\packages\avalonia\11.0.6</PkgAvalonia>
   </PropertyGroup>
 </Project>

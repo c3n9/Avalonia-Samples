@@ -7,7 +7,8 @@
         x:Class="AvaloniaCRUD.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="AvaloniaCRUD">
+        Title="AvaloniaCRUD"
+        WindowStartupLocation="CenterScreen">
 
     <Design.DataContext>
         <vm:MainWindowViewModel />
@@ -23,11 +24,16 @@
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
             <Button x:Name="BAdd"
-                    Content="Add"></Button>
+                    Content="Add"
+                    Command="{Binding SubmitCommand}"
+                    CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}"></Button>
             <Button x:Name="BEdit"
-                    Content="Edit"></Button>
+                    Content="Edit"
+                    CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}"
+                    Command="{Binding SubmitCommand}"></Button>
             <Button x:Name="BRemove"
                     Content="Remove"
+                    CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}"
                     Command="{Binding SubmitCommand}"></Button>
         </StackPanel>
         <ItemsControl ItemsSource="{Binding UserVM.Users}"

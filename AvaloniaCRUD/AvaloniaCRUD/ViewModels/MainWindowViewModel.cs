@@ -14,13 +14,17 @@ public class MainWindowViewModel : ViewModelBase
     public RoleViewModel RoleVM { get; } = new RoleViewModel();
     public UserViewModel UserVM { get; } = new UserViewModel();
     
-    public ReactiveCommand<Unit,Unit> SubmitCommand { get; }
+    public ReactiveCommand<string,Unit> SubmitCommand { get; }
 
-    public MainWindowViewModel()
+    private readonly Window _mainWindow;
+
+    public MainWindowViewModel(Window mainWindow)
     {
-        SubmitCommand = ReactiveCommand.Create(() =>
+        _mainWindow = mainWindow;
+
+        SubmitCommand = ReactiveCommand.Create<string>(buttonContent =>
         {
-            ShowMessageBox("Нажата кнопка удалить!");
+            ShowMessageBox($"Нажата кнопка {buttonContent}!");
         });
     }
 
@@ -29,17 +33,18 @@ public class MainWindowViewModel : ViewModelBase
         var messageBoxWindow = new Window
         {
             Title = "Message",
-            Width = 300,
-            Height = 300,
+            MinWidth = 300,
+            MinHeight = 300,
             WindowStartupLocation = WindowStartupLocation.CenterScreen,
             Content = new TextBlock()
             {
                 Text = message,
                 HorizontalAlignment = HorizontalAlignment.Center,
-                VerticalAlignment = VerticalAlignment.Center
+                VerticalAlignment = VerticalAlignment.Center,
+                
             }
         };
-        messageBoxWindow.Show();
+        messageBoxWindow.ShowDialog(_mainWindow);
     }
 #pragma warning restore CA1822 // Mark members as static
 }
