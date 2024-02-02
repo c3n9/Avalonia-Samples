@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Linq;
 using System.Reactive;
 using Avalonia;
 using Avalonia.Controls;
@@ -23,11 +24,10 @@ public class MainWindowViewModel : ViewModelBase
         set => this.RaiseAndSetIfChanged(ref _currentControl, value);
     }
 
-    private readonly Stack _pageStack = new Stack();
-    public ReactiveCommand<string,Unit> SubmitCommand { get; }
-    public ReactiveCommand<Unit,Unit> BackCommand { get; }
+    public ReactiveCommand<string, Unit> SubmitCommand { get; }
 
     private readonly Window _mainWindow;
+    private readonly Stack _pageStack = new Stack();
 
     public MainWindowViewModel(Window mainWindow)
     {
@@ -36,15 +36,17 @@ public class MainWindowViewModel : ViewModelBase
 
         SubmitCommand = ReactiveCommand.Create<string>(buttonContent =>
         {
-            _pageStack.Push(CurrentControl);
-            CurrentControl = new AddUserUC();
-        });
-        BackCommand = ReactiveCommand.Create(() =>
-        {
-            CurrentControl = (UserControl)_pageStack.Pop();
+            if (buttonContent == "Add")
+            {
+                _pageStack.Push(CurrentControl);
+                var addUserViewModel = new AddUserViewModel(RoleVM.Roles.ToList(), new User());
+                CurrentControl = new AddUserUC() { DataContext = addUserViewModel };
+            }
+            else if (buttonContent == "Edit")
+                CurrentControl = null;
         });
     }
-
+    
     private void ShowMessageBox(string message)
     {
         var messageBoxWindow = new Window
@@ -58,7 +60,6 @@ public class MainWindowViewModel : ViewModelBase
                 Text = message,
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center,
-                
             }
         };
         messageBoxWindow.ShowDialog(_mainWindow);
