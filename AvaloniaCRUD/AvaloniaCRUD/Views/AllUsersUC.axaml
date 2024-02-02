@@ -1,0 +1,64 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="AvaloniaCRUD.Views.AllUsersUC"
+             xmlns:vm="using:AvaloniaCRUD.ViewModels"
+             x:DataType="vm:MainWindowViewModel">
+    <Design.DataContext>
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="BAdd"
+                    Content="Add"
+                    Command="{Binding SubmitCommand}"
+                    CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}"></Button>
+            <Button x:Name="BEdit"
+                    Content="Edit"
+                    CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}"
+                    Command="{Binding SubmitCommand}"></Button>
+            <Button x:Name="BRemove"
+                    Content="Remove"
+                    CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}"
+                    Command="{Binding SubmitCommand}"></Button>
+        </StackPanel>
+        <ItemsControl ItemsSource="{Binding UserVM.Users}"
+                      Grid.Row="1">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border CornerRadius="10"
+                            BorderThickness="3"
+                            BorderBrush="Blue">
+                        <StackPanel>
+                            <TextBlock Text="{Binding Id, Mode=OneWay}"
+                                       HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock Text="{Binding Name, Mode=OneWay}"
+                                       HorizontalAlignment="Center" />
+                            <TextBlock Text="{Binding RoleId, Mode=OneWay}"
+                                       HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <DataGrid ItemsSource="{Binding RoleVM.Roles}"
+                  ColumnWidth="auto"
+                  Grid.Column="1"
+                  Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
