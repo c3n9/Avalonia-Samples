@@ -28,7 +28,13 @@ public class MainWindowViewModel : ViewModelBase
 
     private readonly Window _mainWindow;
     private readonly Stack _pageStack = new Stack();
+    private User _selectedUser;
 
+    public User SelectedUser
+    {
+        get => _selectedUser;
+        set => this.RaiseAndSetIfChanged(ref _selectedUser, value);
+    }
     public MainWindowViewModel(Window mainWindow)
     {
         CurrentControl = new AllUsersUC();
@@ -43,7 +49,20 @@ public class MainWindowViewModel : ViewModelBase
                 CurrentControl = new AddUserUC() { DataContext = addUserViewModel };
             }
             else if (buttonContent == "Edit")
-                CurrentControl = null;
+            {
+                _pageStack.Push(CurrentControl);
+                var addUserViewModel = new AddUserViewModel(RoleVM.Roles.ToList(), SelectedUser);
+                CurrentControl = new AddUserUC() { DataContext = addUserViewModel };
+            }
+            else if (buttonContent == "Remove")
+            {
+                using (DBConnection db = new DBConnection())
+                {
+                    db.User.Remove(SelectedUser);
+                    UserVM.Users.Remove(SelectedUser);
+                    db.SaveChanges();
+                }
+            }
         });
     }
     

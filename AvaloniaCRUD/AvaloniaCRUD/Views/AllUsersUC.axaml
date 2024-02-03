@@ -33,6 +33,7 @@
                     Command="{Binding SubmitCommand}"></Button>
         </StackPanel>
         <DataGrid ItemsSource="{Binding UserVM.Users}"
+                  SelectedItem="{Binding SelectedUser}"
                   Grid.Row="1">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>

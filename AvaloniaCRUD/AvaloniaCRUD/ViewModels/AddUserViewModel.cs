@@ -35,6 +35,8 @@ public class AddUserViewModel : ViewModelBase
     public AddUserViewModel(List<Role> roles, User user)
     {
         Roles = roles;
+        Name = user.Name;
+        Role = user.Role;
         SaveCommand = ReactiveCommand.Create(() =>
         {
             using (var db = new DBConnection())
@@ -46,6 +48,7 @@ public class AddUserViewModel : ViewModelBase
                 };
                 db.User.Add(newUser);
                 db.SaveChanges();
+                
             }
         });
         BackCommand = ReactiveCommand.Create(() =>
