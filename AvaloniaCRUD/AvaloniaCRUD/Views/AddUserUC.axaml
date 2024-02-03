@@ -18,10 +18,15 @@
                  Command="{Binding BackCommand}"
                  Content="Back"
                  HorizontalAlignment="Right"></Button>
-        <StackPanel Grid.Row="1">
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
             <TextBlock Text="Name"></TextBlock>
-            <TextBox Text="{Binding Name, Mode=TwoWay}"></TextBox>
+            <TextBox Text="{Binding Name, Mode=TwoWay}"
+                     MaxLength="50"
+                     Width="300"/>
+            <TextBlock Text="Role"></TextBlock>
             <ComboBox ItemsSource="{Binding Roles}"
+                      Width="300"
                       SelectedValue="{Binding Role, Mode=TwoWay}">
                 <ComboBox.ItemTemplate>
                     <DataTemplate>
@@ -31,6 +36,9 @@
             </ComboBox>
             <Button x:Name="BSave"
                     Content="Save"
+                    Width="150"
+                    HorizontalContentAlignment="Center"
+                    HorizontalAlignment="Center"
                     Command="{Binding SaveCommand}"></Button>
         </StackPanel>
      </Grid>

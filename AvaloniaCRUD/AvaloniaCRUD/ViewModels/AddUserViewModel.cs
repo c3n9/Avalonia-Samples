@@ -36,7 +36,7 @@ public class AddUserViewModel : ViewModelBase
     {
         Roles = roles;
         Name = user.Name;
-        Role = user.Role;
+        Role = Roles.FirstOrDefault(x => x.Id == user.RoleId);
         SaveCommand = ReactiveCommand.Create(() =>
         {
             using (var db = new DBConnection())

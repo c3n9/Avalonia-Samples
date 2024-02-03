@@ -59,7 +59,6 @@ public class MainWindowViewModel : ViewModelBase
                 using (DBConnection db = new DBConnection())
                 {
                     db.User.Remove(SelectedUser);
-                    UserVM.Users.Remove(SelectedUser);
                     db.SaveChanges();
                 }
             }

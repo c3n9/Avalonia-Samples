@@ -16,17 +16,10 @@ public class UserViewModel : ReactiveObject
         set => this.RaiseAndSetIfChanged(ref _user, value);
     }
 
-    private ObservableCollection<User> _users;
-
-    public ObservableCollection<User> Users
-    {
-        get => _users;
-        set => this.RaiseAndSetIfChanged(ref _users, value);
-    }
+    public ObservableCollection<User> Users { get; set; } = new ObservableCollection<User>();
 
     public UserViewModel()
     {
-        _users = new ObservableCollection<User>();
         LoadUsers();
     }
 
