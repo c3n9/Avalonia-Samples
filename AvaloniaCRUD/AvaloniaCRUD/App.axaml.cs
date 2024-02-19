@@ -1,13 +1,33 @@
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using AvaloniaCRUD.ViewModels;
-using AvaloniaCRUD.Views;
+using AvaloniaCRUD.Models;
+using AvaloniaCRUD.Models.Metadata;
 
 namespace AvaloniaCRUD;
 
 public partial class App : Application
 {
+    public static MainWindow MainWindow;
+
+    public App()
+    {
+        RegistrateDescriptors();
+    }
+
+    private void RegistrateDescriptors()
+    {
+        AddDescriptor<User, UserMetadata>();
+    }
+
+    private void AddDescriptor<T, T1>()
+    {
+        var provider = new AssociatedMetadataTypeTypeDescriptionProvider(typeof(T), typeof(T1));
+        TypeDescriptor.AddProviderTransparent(provider, typeof(T));
+    }
+
     public override void Initialize()
     {
         AvaloniaXamlLoader.Load(this);
@@ -17,9 +37,7 @@ public partial class App : Application
     {
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
-            var mainWindow = new MainWindow();
-            desktop.MainWindow = mainWindow;
-            mainWindow.DataContext = new MainWindowViewModel(mainWindow);
+            desktop.MainWindow = new MainWindow();
         }
 
         base.OnFrameworkInitializationCompleted();

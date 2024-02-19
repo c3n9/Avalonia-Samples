@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quart\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj": {}
+    "C:\\Users\\C3n9\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quart\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj": {
+    "C:\\Users\\C3n9\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quart\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj",
+        "projectUniqueName": "C:\\Users\\C3n9\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj",
         "projectName": "AvaloniaCRUD",
-        "projectPath": "C:\\Users\\quart\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj",
-        "packagesPath": "C:\\Users\\quart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quart\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\obj\\",
+        "projectPath": "C:\\Users\\C3n9\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj",
+        "packagesPath": "C:\\Users\\C3n9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\C3n9\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\quart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\C3n9\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,17 +65,13 @@
               "target": "Package",
               "version": "[11.0.6, )"
             },
-            "Avalonia.ReactiveUI": {
-              "target": "Package",
-              "version": "[11.0.6, )"
-            },
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.0.6, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0-preview.1, )"
             }
           },
           "imports": [
@@ -94,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
