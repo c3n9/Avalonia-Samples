@@ -7,13 +7,13 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using AvaloniaCRUD.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace AvaloniaCRUD.Pages;
 
 public partial class AddUserUC : UserControl
 {
     public User User { get; set; }
-    public Role Role { get; set; }
     public List<Role> Roles { get; set; }
 
     public AddUserUC(User user)
@@ -48,8 +48,20 @@ public partial class AddUserUC : UserControl
 
         using (DBConnection db = new DBConnection())
         {
+            
             if (User.Id == 0)
                 db.User.Add(User);
+            else
+            {
+                var existingUser = db.User.FirstOrDefault(u => u.Id == User.Id);
+                if (existingUser != null)
+                {
+                    existingUser.Name = User.Name;
+                    existingUser.RoleId = User.RoleId;
+
+                    db.Entry(existingUser).State = EntityState.Modified;
+                }
+            }
             db.SaveChanges();
         }
 

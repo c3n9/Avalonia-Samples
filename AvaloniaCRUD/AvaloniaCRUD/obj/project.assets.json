@@ -5177,11 +5177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\C3n9\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj",
+      "projectUniqueName": "D:\\Projects\\Avalonia-Directory\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj",
       "projectName": "AvaloniaCRUD",
-      "projectPath": "C:\\Users\\C3n9\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj",
+      "projectPath": "D:\\Projects\\Avalonia-Directory\\AvaloniaCRUD\\AvaloniaCRUD\\AvaloniaCRUD.csproj",
       "packagesPath": "C:\\Users\\C3n9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\C3n9\\RiderProjects\\AvaloniaCRUD\\AvaloniaCRUD\\obj\\",
+      "outputPath": "D:\\Projects\\Avalonia-Directory\\AvaloniaCRUD\\AvaloniaCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

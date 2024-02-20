@@ -7,11 +7,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8783022-9fdd-468a-be8c-11a07e4ba298" name="Changes" comment="" />
+    <list default="true" id="f8783022-9fdd-468a-be8c-11a07e4ba298" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaCRUD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AvaloniaCRUD/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AvaloniaCRUD/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AvaloniaCRUD/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AvaloniaCRUD/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/avaloniacrud.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/avaloniacrud.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/avaloniacrud.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/avaloniacrud.projects.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/AvaloniaCRUD.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/AvaloniaCRUD.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Pages/AddUserUC.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/Pages/AddUserUC.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Pages/AddUserUC.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/Pages/AddUserUC.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/ViewLocator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/AddUserViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/MainWindowViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/RoleViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/UserViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/ViewModels/ViewModelBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Views/AddUserUC.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Views/AddUserUC.axaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Views/AllUsersUC.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Views/AllUsersUC.axaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Views/MainWindow.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/Views/MainWindow.axaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/bin/Debug/net8.0/AvaloniaCRUD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/AvaloniaCRUD.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/AvaloniaCRUD.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/original.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/AvaloniaCRUD.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/ref/AvaloniaCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/ref/AvaloniaCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/refint/AvaloniaCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/Debug/net8.0/refint/AvaloniaCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaCRUD/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/4e05bd3b7707e1941af6dc3a09d4eaf018248127/src/EFCore/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -20,12 +71,14 @@
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/4e05bd3b7707e1941af6dc3a09d4eaf018248127/src/EFCore/Internal/DbContextDependenciesExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/4e05bd3b7707e1941af6dc3a09d4eaf018248127/src/EFCore/Internal/InternalDbSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/4e05bd3b7707e1941af6dc3a09d4eaf018248127/src/EFCore/Properties/CoreStrings.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/bf5e279d9239bfef5bb1b8d6212f1b971c434606/src/coreclr/System.Private.CoreLib/src/System/Type.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/bf5e279d9239bfef5bb1b8d6212f1b971c434606/src/libraries/System.Linq.Expressions/src/System/Linq/Expressions/ParameterExpression.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/bf5e279d9239bfef5bb1b8d6212f1b971c434606/src/libraries/System.Private.CoreLib/src/System/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/409cbfc595ab24b2b1e4ef5d337095fd49bee59162968f6af6a45fb1feb9f287/StyledElement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2cZX4x7Evm6PLljURvaeoUJ06D3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,6 +89,7 @@
     ".NET Project.AvaloniaCRUD.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +136,7 @@
       <updated>1705988632425</updated>
       <workItem from="1705988633960" duration="46000" />
       <workItem from="1708319890188" duration="8238000" />
+      <workItem from="1708434868504" duration="1627000" />
     </task>
     <servers />
   </component>
@@ -90,5 +145,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AvaloniaCRUD/Pages/AddUserUC.axaml.cs</url>
+          <line>64</line>
+          <properties documentPath="D:\Projects\Avalonia-Directory\AvaloniaCRUD\AvaloniaCRUD\Pages\AddUserUC.axaml.cs" initialLine="64" containingFunctionPresentation="Method 'BSave_OnClick'">
+            <startOffsets>
+              <option value="1731" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1748" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

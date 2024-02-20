@@ -19,4 +19,11 @@
         <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.6"/>
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.0-preview.1" />
     </ItemGroup>
+
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Views\AddUserUC.axaml" />
+      <UpToDateCheckInput Remove="Views\AllUsersUC.axaml" />
+      <UpToDateCheckInput Remove="Views\MainWindow.axaml" />
+    </ItemGroup>
 </Project>

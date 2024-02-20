@@ -24,7 +24,7 @@
             <TextBlock Text="Role"></TextBlock>
             <ComboBox ItemsSource="{Binding Roles}"
                       Width="300"
-                      SelectedValue="{Binding User.Role}">
+                      SelectedValue="{Binding User.RoleId, Mode=TwoWay}">
                 <ComboBox.ItemTemplate>
                     <DataTemplate>
                         <TextBlock Text="{Binding Name}"></TextBlock>
