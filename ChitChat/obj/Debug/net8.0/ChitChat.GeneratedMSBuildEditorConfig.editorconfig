@@ -13,21 +13,21 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChitChat
-build_property.ProjectDir = C:\Users\quart\source\repos\Avalonia-Directory\ChitChat\
+build_property.ProjectDir = C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/quart/source/repos/Avalonia-Directory/ChitChat/App.axaml]
+[C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/quart/source/repos/Avalonia-Directory/ChitChat/AppWindows/MessageWindow.axaml]
+[C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/AppWindows/MessageWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/quart/source/repos/Avalonia-Directory/ChitChat/MainWindow.axaml]
+[C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/quart/source/repos/Avalonia-Directory/ChitChat/UserControls/LoginUC.axaml]
+[C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/UserControls/LoginUC.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/quart/source/repos/Avalonia-Directory/ChitChat/UserControls/RegistrationUC.axaml]
+[C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/UserControls/RegistrationUC.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

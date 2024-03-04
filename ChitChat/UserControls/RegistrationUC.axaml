@@ -11,7 +11,8 @@
                     HorizontalAlignment="Center"
                     Width="300">
 			<TextBlock Text="Name"/>
-			<TextBox Text="{Binding Employee.Name}"/>
+			<TextBox Text="{Binding Employee.Name}"
+					 Watermark="Name"/>
 			<TextBlock Text="Department"/>
 			<ComboBox x:Name="CBDepartments"
                       ItemsSource="{Binding Departments}"
@@ -24,9 +25,12 @@
 				</ComboBox.ItemTemplate>
 			</ComboBox>
 			<TextBlock Text="Username"/>
-			<TextBox Text="{Binding Employee.Username}"/>
+			<TextBox Text="{Binding Employee.Username}"
+					 Watermark="Username"/>
 			<TextBlock Text="Password"/>
-			<TextBox Text="{Binding Employee.Password}"/>
+			<TextBox Text="{Binding Employee.Password}"
+					 Watermark="Password"
+					 PasswordChar="*"/>
 			<StackPanel Orientation="Horizontal">
 				<Button x:Name="BRegister"
                         Click="BRegister_Click"

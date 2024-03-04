@@ -4,9 +4,11 @@ using Avalonia.Markup.Xaml;
 using ChitChat.AppWindows;
 using ChitChat.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Security.Cryptography;
 
 namespace ChitChat.UserControls;
 
@@ -46,13 +48,20 @@ public partial class RegistrationUC : UserControl
         }
         using (DBConnection db = new DBConnection())
         {
+            Employee.Password = GetHash(Employee.Password);
             db.Entry(Employee.Department).State = EntityState.Unchanged;
             db.Employee.Add(Employee);
             db.SaveChanges();
         }
         App.MainWindow.MainContentPresenter.Content = new LoginUC();
     }
-
+    private string GetHash(string input)
+    {
+        var md5 = MD5.Create();
+        var hash = md5.ComputeHash(System.Text.Encoding.UTF8.GetBytes(input));
+        var text = Convert.ToBase64String(hash);
+        return Convert.ToBase64String(hash);
+    }
     private void BCancel_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         App.MainWindow.MainContentPresenter.Content = new LoginUC();

@@ -9,9 +9,13 @@
 					HorizontalAlignment="Center"
 					Width="300">
 			<TextBlock Text="Username"/>
-			<TextBox x:Name="TBUsername"/>
+			<TextBox x:Name="TBUsername"
+					 Watermark="Enter username"/>
 			<TextBlock Text="Password"/>
-			<TextBox x:Name="TBPassword"/>
+			<TextBox x:Name="TBPassword"
+					 Watermark="Enter password"
+					 PasswordChar="*">
+			</TextBox>
 			<StackPanel Orientation="Horizontal">
 				<CheckBox x:Name="CBRememberMe"/>
 				<TextBlock Text="RememberMe"
