@@ -57,7 +57,7 @@ public partial class ChitChatContext : DbContext
 
             entity.ToTable("Chatroom");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Id).UseIdentityAlwaysColumn();
             entity.Property(e => e.Topic).HasMaxLength(50);
         });
 
@@ -67,7 +67,7 @@ public partial class ChitChatContext : DbContext
 
             entity.ToTable("Department");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Id).UseIdentityAlwaysColumn();
             entity.Property(e => e.Name).HasMaxLength(50);
         });
 
