@@ -1,0 +1,34 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:pages="clr-namespace:CRUD;assembly=CRUD"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="CRUD.AllUsersUC"
+			 x:DataType="pages:AllUsersUC">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<StackPanel Orientation="Horizontal">
+			<Button x:Name="BAdd"
+					Click="BAdd_Click"
+					Content="Add"/>
+			<Button x:Name="BEdit"
+					Click="BEdit_Click"
+					Content="Edit"/>
+			<Button x:Name="BRemove"
+					Click="BRemove_Click"
+					Content="Remove"/>
+		</StackPanel>
+		<DataGrid Grid.Row="1"
+				  x:Name="DGUsers"
+				  ItemsSource="{Binding Users}">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+				<DataGridTextColumn Header="Role" Binding="{Binding Role.Name}"/>
+			</DataGrid.Columns>
+		</DataGrid>
+	</Grid>
+</UserControl>

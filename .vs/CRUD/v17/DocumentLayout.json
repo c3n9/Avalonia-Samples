@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|c:\\users\\quart\\source\\repos\\avalonia-directory\\crud\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|solutionrelative:crud\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|c:\\users\\quart\\source\\repos\\avalonia-directory\\crud\\appwindows\\messagewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|solutionrelative:crud\\appwindows\\messagewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|c:\\users\\quart\\source\\repos\\avalonia-directory\\crud\\usercontrols\\adduseruc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|solutionrelative:crud\\usercontrols\\adduseruc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|c:\\users\\quart\\source\\repos\\avalonia-directory\\crud\\usercontrols\\adduseruc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|solutionrelative:crud\\usercontrols\\adduseruc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|c:\\users\\quart\\source\\repos\\avalonia-directory\\crud\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|solutionrelative:crud\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|c:\\users\\quart\\source\\repos\\avalonia-directory\\crud\\models\\metadata\\usermetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|solutionrelative:crud\\models\\metadata\\usermetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|c:\\users\\quart\\source\\repos\\avalonia-directory\\crud\\appwindows\\messagewindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|solutionrelative:crud\\appwindows\\messagewindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|c:\\users\\quart\\source\\repos\\avalonia-directory\\crud\\crud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|solutionrelative:crud\\crud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|c:\\users\\quart\\source\\repos\\avalonia-directory\\crud\\crud.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B45BB49F-8982-4094-85D2-DD9A8B6D7ADA}|CRUD\\CRUD.csproj|solutionrelative:crud\\crud.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddUserUC.axaml",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\UserControls\\AddUserUC.axaml",
+              "RelativeDocumentMoniker": "CRUD\\UserControls\\AddUserUC.axaml",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\UserControls\\AddUserUC.axaml",
+              "RelativeToolTip": "CRUD\\UserControls\\AddUserUC.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-04T10:37:34.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\App.axaml.cs",
+              "RelativeDocumentMoniker": "CRUD\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\App.axaml.cs",
+              "RelativeToolTip": "CRUD\\App.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T10:37:25.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserMetadata.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\Models\\Metadata\\UserMetadata.cs",
+              "RelativeDocumentMoniker": "CRUD\\Models\\Metadata\\UserMetadata.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\Models\\Metadata\\UserMetadata.cs",
+              "RelativeToolTip": "CRUD\\Models\\Metadata\\UserMetadata.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T10:35:20.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddUserUC.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\UserControls\\AddUserUC.axaml.cs",
+              "RelativeDocumentMoniker": "CRUD\\UserControls\\AddUserUC.axaml.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\UserControls\\AddUserUC.axaml.cs",
+              "RelativeToolTip": "CRUD\\UserControls\\AddUserUC.axaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T10:34:17.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\AppWindows\\MessageWindow.axaml",
+              "RelativeDocumentMoniker": "CRUD\\AppWindows\\MessageWindow.axaml",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\AppWindows\\MessageWindow.axaml",
+              "RelativeToolTip": "CRUD\\AppWindows\\MessageWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-04T10:32:44.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MessageWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\AppWindows\\MessageWindow.axaml.cs",
+              "RelativeDocumentMoniker": "CRUD\\AppWindows\\MessageWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\AppWindows\\MessageWindow.axaml.cs",
+              "RelativeToolTip": "CRUD\\AppWindows\\MessageWindow.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T10:32:43.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CRUD.csproj",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\CRUD.csproj",
+              "RelativeDocumentMoniker": "CRUD\\CRUD.csproj",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\CRUD.csproj",
+              "RelativeToolTip": "CRUD\\CRUD.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-04T10:32:19.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "CRUD\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\MainWindow.axaml",
+              "RelativeToolTip": "CRUD\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-04T10:30:06.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CRUD",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\CRUD.csproj",
+              "RelativeDocumentMoniker": "CRUD\\CRUD.csproj",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\CRUD\\CRUD.csproj",
+              "RelativeToolTip": "CRUD\\CRUD.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-04T10:29:02.28Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
