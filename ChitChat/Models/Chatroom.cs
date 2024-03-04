@@ -5,9 +5,11 @@ namespace ChitChat.Models;
 
 public partial class Chatroom
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
 
     public string Topic { get; set; } = null!;
 
-    public virtual ICollection<ChatroomEmployee> ChatroomEmployees { get; set; } = new List<ChatroomEmployee>();
+    public virtual ICollection<ChatMessage> ChatMessages { get; set; } = new List<ChatMessage>();
+
+    public virtual ICollection<EmployeeChatroom> EmployeeChatrooms { get; set; } = new List<EmployeeChatroom>();
 }

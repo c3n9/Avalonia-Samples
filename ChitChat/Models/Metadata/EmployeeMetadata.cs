@@ -14,7 +14,7 @@ namespace ChitChat.Models.Metadata
         [Required]
         [MaxLength(100)]
 
-        public string UserName { get; set; } = null!;
+        public string Username { get; set; } = null!;
 
         [Required]
         [MaxLength(100)]

@@ -3,6 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using ChitChat.AppWindows;
 using ChitChat.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -32,9 +33,9 @@ public partial class RegistrationUC : UserControl
         var results = new List<ValidationResult>();
         if (!Validator.TryValidateObject(Employee, validationContext, results, true))
         {
-            foreach(var result in results)
+            foreach (var result in results)
             {
-                error += "->"+$"{result.ErrorMessage}\n";
+                error += "->" + $"{result.ErrorMessage}\n";
             }
         }
         if (!string.IsNullOrWhiteSpace(error))
@@ -45,6 +46,7 @@ public partial class RegistrationUC : UserControl
         }
         using (DBConnection db = new DBConnection())
         {
+            db.Entry(Employee.Department).State = EntityState.Unchanged;
             db.Employee.Add(Employee);
             db.SaveChanges();
         }

@@ -5,19 +5,19 @@ namespace ChitChat.Models;
 
 public partial class Employee
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
 
-    public string? Name { get; set; }
+    public string Name { get; set; } = null!;
 
-    public long? DepartmentId { get; set; }
+    public int DepartmentId { get; set; }
 
-    public string? UserName { get; set; }
+    public string Username { get; set; } = null!;
 
-    public string? Password { get; set; }
+    public string Password { get; set; } = null!;
 
     public virtual ICollection<ChatMessage> ChatMessages { get; set; } = new List<ChatMessage>();
 
-    public virtual ICollection<ChatroomEmployee> ChatroomEmployees { get; set; } = new List<ChatroomEmployee>();
+    public virtual Department Department { get; set; } = null!;
 
-    public virtual Department? Department { get; set; }
+    public virtual ICollection<EmployeeChatroom> EmployeeChatrooms { get; set; } = new List<EmployeeChatroom>();
 }

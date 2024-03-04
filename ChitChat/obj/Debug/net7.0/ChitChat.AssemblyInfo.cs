@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChitChat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32cc41b66916f3db0856b2cfe84591d5a506c8f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChitChat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChitChat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

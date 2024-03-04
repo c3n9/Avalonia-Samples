@@ -24,7 +24,7 @@
 				</ComboBox.ItemTemplate>
 			</ComboBox>
 			<TextBlock Text="Username"/>
-			<TextBox Text="{Binding Employee.UserName}"/>
+			<TextBox Text="{Binding Employee.Username}"/>
 			<TextBlock Text="Password"/>
 			<TextBox Text="{Binding Employee.Password}"/>
 			<StackPanel Orientation="Horizontal">

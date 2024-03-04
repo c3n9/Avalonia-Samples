@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7LFZtqoG8m7dBG246WXrhccWPV6HK9I8CJmu5ZmFYzIE7yr8RHTwcSPH0R8WRvrfCkeYOUzR8LlL5di/FfLLQQ==",
+  "dgSpecHash": "11+NW+Wgd5fhVcERcjWnm6IN9aui4t4zQ8HlHLn45C6HzT1zWzmO9/XNYQvHWEIoBnuoj2YkLTskFHFyVNv8SQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\quart\\source\\repos\\ChitChat\\ChitChat\\ChitChat.csproj",
+  "projectFilePath": "C:\\Users\\quart\\source\\repos\\Avalonia-Directory\\ChitChat\\ChitChat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quart\\.nuget\\packages\\avalonia\\11.0.6\\avalonia.11.0.6.nupkg.sha512",
     "C:\\Users\\quart\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

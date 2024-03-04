@@ -5,13 +5,17 @@ namespace ChitChat.Models;
 
 public partial class ChatMessage
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
 
-    public long SenderId { get; set; }
+    public int SenderId { get; set; }
+
+    public int ChatroomId { get; set; }
 
     public DateOnly Date { get; set; }
 
     public string Message { get; set; } = null!;
+
+    public virtual Chatroom Chatroom { get; set; } = null!;
 
     public virtual Employee Sender { get; set; } = null!;
 }
