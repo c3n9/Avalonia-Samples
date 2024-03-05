@@ -31,7 +31,8 @@
 			<TextBox Text="{Binding Employee.Password}"
 					 Watermark="Password"
 					 PasswordChar="*"/>
-			<StackPanel Orientation="Horizontal">
+			<StackPanel Orientation="Horizontal"
+						HorizontalAlignment="Center">
 				<Button x:Name="BRegister"
                         Click="BRegister_Click"
                         Content="Register"

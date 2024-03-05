@@ -17,7 +17,7 @@ public partial class MainUC : UserControl
         using(DBConnection db = new DBConnection())
         {
             Employee = App.loginEmploee;
-            Chatrooms = db.Chatroom.ToList().Where(c => c.EmployeeChatrooms.Select(emp => emp.Employee).Contains(App.loginEmploee)).ToList();
+            Chatrooms = db.EmployeeChatroom.Where(x => x.EmployeeId == App.loginEmploee.Id).Select(x => x.Chatroom).ToList();
             DataContext = this;
         }
     }

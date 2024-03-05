@@ -6,11 +6,19 @@
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Test\**" />
     <EmbeddedResource Remove="Test\**" />
     <None Remove="Test\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="cross.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="cross.ico" />
+    <AvaloniaResource Include="logo.ico" />
   </ItemGroup>
 
 

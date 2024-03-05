@@ -40,9 +40,9 @@ public partial class EmployeeFinderUC : UserControl
                     }
                 }
             }
-            IEmployee.ItemsSource = null;
+            LBEmployee.ItemsSource = null;
             Employees = filtred.ToList();
-            IEmployee.ItemsSource = Employees;
+            LBEmployee.ItemsSource = Employees;
         }
     }
 
@@ -57,7 +57,7 @@ public partial class EmployeeFinderUC : UserControl
                 var stackPanelDepartment = new StackPanel() { Margin = new Thickness(10), Orientation = Orientation.Horizontal };
                 var checkBox = new CheckBox() { Tag = department.Id };
                 checkBox.IsCheckedChanged += CheckBox_IsCheckedChanged;
-                var textBlock = new TextBlock() { Text = $"{department.Name}" };
+                var textBlock = new TextBlock() { Text = $"{department.Name}", FontSize = 20 };
                 stackPanelDepartment.Children.Add(checkBox);
                 stackPanelDepartment.Children.Add(textBlock);
                 stackPanel.Children.Add(stackPanelDepartment);
@@ -83,6 +83,12 @@ public partial class EmployeeFinderUC : UserControl
 
     private void ListBox_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
     {
+        if (LBEmployee.SelectedItem is Employee employee)
+            App.MainWindow.MainContentPresenter.Content = new ChangeTopicUC(employee, new Chatroom());
+    }
 
+    private void BBack_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        App.MainWindow.MainContentPresenter.Content = new MainUC();
     }
 }

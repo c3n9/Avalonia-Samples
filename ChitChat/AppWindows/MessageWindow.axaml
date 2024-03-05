@@ -8,6 +8,7 @@
 		MinHeight="200"
 		MinWidth="400"
 		WindowStartupLocation="CenterOwner"
+		Icon="/cross.ico"
         x:Class="ChitChat.AppWindows.MessageWindow"
         Title="MessageWindow">
 	<Grid HorizontalAlignment="Center"

@@ -7,20 +7,34 @@
 			 x:DataType="usercontrols:EmployeeFinderUC"
              x:Class="ChitChat.EmployeeFinderUC">
 	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition/>
 			<ColumnDefinition/>
 		</Grid.ColumnDefinitions>
+		<Button x:Name="BBack"
+				Click="BBack_Click"
+				Content="Back"
+				Margin="10"
+				HorizontalAlignment="Right"
+				Grid.ColumnSpan="2"
+				Width="120"/>
 		<StackPanel Margin="10"
+					Grid.Row="1"
 					x:Name="SPDepartments">
-			<TextBlock Text="Departments"/>
+			<TextBlock Text="Departments"
+					   FontSize="20"/>
 		</StackPanel>
-		<StackPanel Grid.Column="1">
+		<StackPanel Grid.Column="1"
+					Grid.Row="1">
 			<TextBox x:Name="TBSurch"
 					 Margin="10"
 					 Watermark="Surch employee"
 					 TextChanged="TBSurch_TextChanged"/>
-			<ListBox x:Name="IEmployee"
+			<ListBox x:Name="LBEmployee"
 						  Margin="10"
 					 DoubleTapped="ListBox_DoubleTapped"
 					      ItemsSource="{Binding Employees}">

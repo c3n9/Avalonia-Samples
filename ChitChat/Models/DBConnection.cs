@@ -17,7 +17,7 @@ namespace ChitChat.Models
 
         public virtual DbSet<Employee> Employee { get; set; }
 
-        //public virtual DbSet<EmployeeChatroom> EmployeeChatroom { get; set; }
+        public virtual DbSet<EmployeeChatroom> EmployeeChatroom { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql("Host=127.0.0.1;Username=postgres;Password=1;Database=ChitChat");

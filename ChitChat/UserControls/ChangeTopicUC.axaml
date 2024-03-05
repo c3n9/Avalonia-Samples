@@ -1,0 +1,31 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ChitChat.ChangeTopicUC">
+	<Grid>
+		<StackPanel VerticalAlignment="Center"
+					HorizontalAlignment="Center"
+					Width="300">
+			<TextBlock Text="Chatroom name"/>
+			<TextBox x:Name="TBChatroomName"
+					 Watermark="Enter chatroom name"
+					 MaxLength="50"/>
+			<StackPanel Orientation="Horizontal"
+						HorizontalAlignment="Center">
+				<Button x:Name="BOk"
+						Click="ButtonOk_Click"
+						Content="Ok"
+						Background="LightBlue"
+						Width="100"
+						Margin="10,0"/>
+				<Button x:Name="BCancel"
+						Content="Cancel"
+						Click="ButtonCancel_Click"
+						Width="100"/>
+			</StackPanel>
+
+		</StackPanel>
+	</Grid>
+</UserControl>
