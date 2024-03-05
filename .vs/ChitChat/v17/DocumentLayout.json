@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\registrationuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\registrationuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\employeefinderuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\employeefinderuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\mainuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\mainuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\loginuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\loginuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\employeefinderuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\employeefinderuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\loginuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\loginuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\loginuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\loginuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\mainuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\mainuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\chatuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\chatuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\chatuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\chatuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\models\\partials\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\models\\partials\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\registrationuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\usercontrols\\registrationuc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\models\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\models\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\chitchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\chitchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\usercontrols\\registrationuc.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\models\\chitchatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\models\\chitchatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\models\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\models\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,28 +91,12 @@
       "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\chitchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\chitchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\appwindows\\messagewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\appwindows\\messagewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\appwindows\\messagewindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\appwindows\\messagewindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|c:\\users\\quart\\source\\repos\\avalonia-samples\\chitchat\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{BE241541-2E02-454F-8FD5-D9791DCC7293}|ChitChat\\ChitChat.csproj|solutionrelative:chitchat\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +118,95 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatUC.axaml",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\ChatUC.axaml",
+              "RelativeDocumentMoniker": "ChitChat\\UserControls\\ChatUC.axaml",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\ChatUC.axaml",
+              "RelativeToolTip": "ChitChat\\UserControls\\ChatUC.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T10:53:03.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatUC.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\ChatUC.axaml.cs",
+              "RelativeDocumentMoniker": "ChitChat\\UserControls\\ChatUC.axaml.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\ChatUC.axaml.cs",
+              "RelativeToolTip": "ChitChat\\UserControls\\ChatUC.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T10:53:03.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeFinderUC.axaml",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\EmployeeFinderUC.axaml",
+              "RelativeDocumentMoniker": "ChitChat\\UserControls\\EmployeeFinderUC.axaml",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\EmployeeFinderUC.axaml",
+              "RelativeToolTip": "ChitChat\\UserControls\\EmployeeFinderUC.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T10:52:43.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeFinderUC.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\EmployeeFinderUC.axaml.cs",
+              "RelativeDocumentMoniker": "ChitChat\\UserControls\\EmployeeFinderUC.axaml.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\EmployeeFinderUC.axaml.cs",
+              "RelativeToolTip": "ChitChat\\UserControls\\EmployeeFinderUC.axaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwDsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T10:52:42.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Chatroom.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\Models\\Partials\\Chatroom.cs",
+              "RelativeDocumentMoniker": "ChitChat\\Models\\Partials\\Chatroom.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\Models\\Partials\\Chatroom.cs",
+              "RelativeToolTip": "ChitChat\\Models\\Partials\\Chatroom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T10:44:37.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainUC.axaml",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\MainUC.axaml",
+              "RelativeDocumentMoniker": "ChitChat\\UserControls\\MainUC.axaml",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\MainUC.axaml",
+              "RelativeToolTip": "ChitChat\\UserControls\\MainUC.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T10:25:01.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainUC.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\MainUC.axaml.cs",
+              "RelativeDocumentMoniker": "ChitChat\\UserControls\\MainUC.axaml.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\MainUC.axaml.cs",
+              "RelativeToolTip": "ChitChat\\UserControls\\MainUC.axaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T10:25:00.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "ChitChat\\MainWindow.axaml.cs",
@@ -102,29 +218,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "RegistrationUC.axaml",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\RegistrationUC.axaml",
               "RelativeDocumentMoniker": "ChitChat\\UserControls\\RegistrationUC.axaml",
               "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\RegistrationUC.axaml",
               "RelativeToolTip": "ChitChat\\UserControls\\RegistrationUC.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-04T11:13:01.152Z"
+              "WhenOpened": "2024-03-04T11:13:01.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "LoginUC.axaml",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\LoginUC.axaml",
               "RelativeDocumentMoniker": "ChitChat\\UserControls\\LoginUC.axaml",
               "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\LoginUC.axaml",
               "RelativeToolTip": "ChitChat\\UserControls\\LoginUC.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-04T11:13:01.157Z"
+              "WhenOpened": "2024-03-04T11:13:01.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "RegistrationUC.axaml.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\RegistrationUC.axaml.cs",
               "RelativeDocumentMoniker": "ChitChat\\UserControls\\RegistrationUC.axaml.cs",
@@ -136,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "ChitChatContext.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\Models\\ChitChatContext.cs",
               "RelativeDocumentMoniker": "ChitChat\\Models\\ChitChatContext.cs",
@@ -148,19 +266,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "App.axaml.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\App.axaml.cs",
               "RelativeDocumentMoniker": "ChitChat\\App.axaml.cs",
               "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\App.axaml.cs",
               "RelativeToolTip": "ChitChat\\App.axaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:13:01.102Z"
+              "WhenOpened": "2024-03-04T11:13:01.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "DBConnection.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\Models\\DBConnection.cs",
               "RelativeDocumentMoniker": "ChitChat\\Models\\DBConnection.cs",
@@ -172,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "EmployeeMetadata.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\Models\\Metadata\\EmployeeMetadata.cs",
               "RelativeDocumentMoniker": "ChitChat\\Models\\Metadata\\EmployeeMetadata.cs",
@@ -184,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "ChitChat\\Models\\Employee.cs",
@@ -196,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Chatroom.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\Models\\Chatroom.cs",
               "RelativeDocumentMoniker": "ChitChat\\Models\\Chatroom.cs",
@@ -204,7 +323,8 @@
               "RelativeToolTip": "ChitChat\\Models\\Chatroom.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:18:57.267Z"
+              "WhenOpened": "2024-03-04T11:18:57.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -214,13 +334,14 @@
               "RelativeDocumentMoniker": "ChitChat\\UserControls\\LoginUC.axaml.cs",
               "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\UserControls\\LoginUC.axaml.cs",
               "RelativeToolTip": "ChitChat\\UserControls\\LoginUC.axaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBkAAABeAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:13:01.094Z"
+              "WhenOpened": "2024-03-04T11:13:01.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "EmployeeChatroom.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\Models\\EmployeeChatroom.cs",
               "RelativeDocumentMoniker": "ChitChat\\Models\\EmployeeChatroom.cs",
@@ -232,18 +353,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "MessageWindow.axaml",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\AppWindows\\MessageWindow.axaml",
               "RelativeDocumentMoniker": "ChitChat\\AppWindows\\MessageWindow.axaml",
               "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\AppWindows\\MessageWindow.axaml",
               "RelativeToolTip": "ChitChat\\AppWindows\\MessageWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-04T11:13:01.111Z"
+              "WhenOpened": "2024-03-04T11:13:01.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ChitChat.csproj",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\ChitChat.csproj",
               "RelativeDocumentMoniker": "ChitChat\\ChitChat.csproj",
@@ -251,11 +373,12 @@
               "RelativeToolTip": "ChitChat\\ChitChat.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-04T11:13:01.118Z"
+              "WhenOpened": "2024-03-04T11:13:01.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "MessageWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\AppWindows\\MessageWindow.axaml.cs",
               "RelativeDocumentMoniker": "ChitChat\\AppWindows\\MessageWindow.axaml.cs",
@@ -267,25 +390,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\App.axaml",
               "RelativeDocumentMoniker": "ChitChat\\App.axaml",
               "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\App.axaml",
               "RelativeToolTip": "ChitChat\\App.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-04T11:13:01.098Z"
+              "WhenOpened": "2024-03-04T11:13:01.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\MainWindow.axaml",
               "RelativeDocumentMoniker": "ChitChat\\MainWindow.axaml",
               "ToolTip": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\ChitChat\\MainWindow.axaml",
               "RelativeToolTip": "ChitChat\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-04T11:13:01.161Z"
+              "WhenOpened": "2024-03-04T11:13:01.161Z",
+              "EditorCaption": ""
             }
           ]
         }

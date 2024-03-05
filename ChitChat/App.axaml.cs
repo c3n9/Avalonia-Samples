@@ -12,6 +12,7 @@ namespace ChitChat
     public partial class App : Application
     {
         public static MainWindow MainWindow;
+        public static Employee loginEmploee;
         public App()
         {
             RegistrateDescriptors();

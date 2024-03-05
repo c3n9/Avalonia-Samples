@@ -26,7 +26,16 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/UserControls/ChatUC.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/UserControls/EmployeeFinderUC.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/UserControls/LoginUC.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/UserControls/MainUC.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/quart/source/repos/Avalonia-Samples/ChitChat/UserControls/RegistrationUC.axaml]

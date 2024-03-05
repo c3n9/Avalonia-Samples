@@ -1,0 +1,45 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:usercontrols="clr-namespace:ChitChat;assembly=ChitChat"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 x:DataType="usercontrols:MainUC"
+             x:Class="ChitChat.MainUC">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto"/>
+			<RowDefinition/>
+			<RowDefinition Height="auto"/>
+		</Grid.RowDefinitions>
+		<TextBlock Text="{Binding Employee.Name, StringFormat='Hello {0}!'}"
+				   FontSize="24"
+				   Margin="20"/>
+		<StackPanel Grid.Row="1"
+					VerticalAlignment="Center"
+					HorizontalAlignment="Center">
+			<TextBlock Text="Your open chatroom"
+					   Margin="0,10"/>
+			<DataGrid x:Name="DGChatrooms"
+					  ItemsSource="{Binding Chatrooms}"
+					  MinWidth="800"
+					  MinHeight="300">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Topic" Binding="{Binding Topic}"/>
+					<DataGridTextColumn Header="Last message" Binding="{Binding LastChatMessage}"/>
+				</DataGrid.Columns>
+			</DataGrid>
+		</StackPanel>
+		<Grid Grid.Row="2"
+			  Margin="20">
+			<Button x:Name="BEmployeeFinder"
+					Click="BEmployeeFinder_Click"
+					Content="Employee Finder"
+					HorizontalAlignment="Left"/>
+			<Button x:Name="BCloseApplication"
+					Click="BCloseApplication_Click"
+					Content="Close Application"
+					HorizontalAlignment="Right"/>
+		</Grid>
+	</Grid>
+</UserControl>

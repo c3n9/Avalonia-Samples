@@ -27,6 +27,8 @@ public partial class LoginUC : UserControl
                 messageWindow.ShowDialog(App.MainWindow);
                 return;
             }
+            App.loginEmploee = employee;
+            App.MainWindow.MainContentPresenter.Content = new MainUC();
 
         }
     }
