@@ -2,6 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Layout;
 using Avalonia.Markup.Xaml;
+using ChitChat.AppWindows;
 using ChitChat.Models;
 using System;
 using System.Collections.Generic;
@@ -13,9 +14,11 @@ public partial class EmployeeFinderUC : UserControl
 {
     public List<Employee> Employees { get; set; }
     List<CheckBox> CheckBoxes = new List<CheckBox>();
-    public EmployeeFinderUC()
+    Chatroom contextChatroom;
+    public EmployeeFinderUC(Chatroom chatroom)
     {
         InitializeComponent();
+        contextChatroom = chatroom;
         InitDepartmentsList();
         Refresh();
     }
@@ -84,7 +87,36 @@ public partial class EmployeeFinderUC : UserControl
     private void ListBox_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
     {
         if (LBEmployee.SelectedItem is Employee employee)
-            App.MainWindow.MainContentPresenter.Content = new ChangeTopicUC(employee, new Chatroom());
+        {
+            var error = string.Empty;
+            if (employee.Id == App.loginEmploee.Id)
+            {
+                error += "You can't create a chat with yourself\n";
+            }
+            using (DBConnection db = new DBConnection())
+            {
+                var employeeInChatroom = db.EmployeeChatroom.FirstOrDefault(x => x.EmployeeId == employee.Id);
+                if (employeeInChatroom != null)
+                    error += "This user is already in the chat\n";
+            }
+            if (!string.IsNullOrWhiteSpace(error))
+            {
+                MessageWindow messageWindow = new MessageWindow(error);
+                messageWindow.ShowDialog(App.MainWindow);
+                return;
+            }
+            if (contextChatroom.Id == 0)
+                App.MainWindow.MainContentPresenter.Content = new ChangeTopicUC(employee, new Chatroom());
+            else
+            {
+                using (DBConnection db = new DBConnection())
+                {
+                    db.EmployeeChatroom.Add(new EmployeeChatroom() { ChatroomId = contextChatroom.Id, EmployeeId = employee.Id });
+                    db.SaveChanges();
+                }
+                App.MainWindow.MainContentPresenter.Content = new ChatUC(contextChatroom);
+            }
+        }
     }
 
     private void BBack_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)

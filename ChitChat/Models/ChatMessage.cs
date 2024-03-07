@@ -11,7 +11,7 @@ public partial class ChatMessage
 
     public int ChatroomId { get; set; }
 
-    public DateOnly Date { get; set; }
+    public DateTime Date { get; set; }
 
     public string Message { get; set; } = null!;
 

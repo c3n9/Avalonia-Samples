@@ -12,12 +12,16 @@ namespace ChitChat.Models
         {
             get
             {
-                var message = this.ChatMessages.LastOrDefault();
-                if(message == null)
+                using(DBConnection db = new DBConnection())
                 {
-                    return string.Empty;
+                    var message = db.ChatMessage.Where(x => x.ChatroomId == this.Id).ToList().LastOrDefault();
+                    if (message == null)
+                    {
+                        return string.Empty;
+                    }
+                    return message.Message.Substring(0,10) + "...";
                 }
-                return message.Message;
+                
             }
         }
     }

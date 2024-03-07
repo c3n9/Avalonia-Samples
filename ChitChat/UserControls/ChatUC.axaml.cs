@@ -33,27 +33,40 @@ public partial class ChatUC : UserControl
 
     private void BCLose_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
+        App.MainWindow.MainContentPresenter.Content = new MainUC();
     }
 
     private void BAddUser_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
+        App.MainWindow.MainContentPresenter.Content = new EmployeeFinderUC(Chatroom);
     }
 
     private void BChangeTopic_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
+        App.MainWindow.MainContentPresenter.Content = new EmployeeFinderUC(new Chatroom());
     }
 
     private void BLeave_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
+        using(DBConnection db = new DBConnection())
+        {
+            var employeeChatroom = db.EmployeeChatroom.FirstOrDefault(x => Chatroom.Id == Chatroom.Id && x.EmployeeId == App.loginEmploee.Id);
+            db.EmployeeChatroom.Remove(employeeChatroom);
+            db.SaveChanges();
+            App.MainWindow.MainContentPresenter.Content = new MainUC();
+        }
+        
     }
 
     private void BSend_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        //using (DBConnection db = new DBConnection())
-        //{
-        //    var chatMessage = new ChatMessage() { SenderId = App.loginEmploee.Id, ChatroomId = Chatroom.Id, Date = DateTime.Now.Date, Message = TBMessage.Text };
-        //}
-        //Refresh();
-        //TBMessage.Text = String.Empty;
+        using (DBConnection db = new DBConnection())
+        {
+            var chatMessage = new ChatMessage() { SenderId = App.loginEmploee.Id, ChatroomId = Chatroom.Id, Date = DateTime.UtcNow, Message = TBMessage.Text };
+            db.ChatMessage.Add(chatMessage);
+            db.SaveChanges();
+        }
+        Refresh();
+        TBMessage.Text = String.Empty;
     }
 }

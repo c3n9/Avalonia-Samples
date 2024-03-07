@@ -2,6 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using ChitChat.Models;
+using ChitChat.UserControls;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -24,7 +25,7 @@ public partial class MainUC : UserControl
 
     private void BEmployeeFinder_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        App.MainWindow.MainContentPresenter.Content = new EmployeeFinderUC();
+        App.MainWindow.MainContentPresenter.Content = new EmployeeFinderUC(new Chatroom());
     }
 
     private void BCloseApplication_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -38,5 +39,11 @@ public partial class MainUC : UserControl
         {
             App.MainWindow.MainContentPresenter.Content = new ChatUC(chatroom);
         }
+    }
+
+    private void BExit_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        App.loginEmploee = null;
+        App.MainWindow.MainContentPresenter.Content = new LoginUC();
     }
 }

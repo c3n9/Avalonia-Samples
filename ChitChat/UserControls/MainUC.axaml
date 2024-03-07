@@ -12,6 +12,11 @@
 			<RowDefinition/>
 			<RowDefinition Height="auto"/>
 		</Grid.RowDefinitions>
+		<Button x:Name="BExit"
+				Click="BExit_Click"
+				Content="Exit"
+				HorizontalAlignment="Right"
+				Margin="10"/>
 		<TextBlock Text="{Binding Employee.Name, StringFormat='Hello {0}!'}"
 				   FontSize="24"
 				   Margin="20"/>

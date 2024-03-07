@@ -32,11 +32,13 @@
 					 Watermark="Password"
 					 PasswordChar="*"/>
 			<StackPanel Orientation="Horizontal"
+						Margin="10"
 						HorizontalAlignment="Center">
 				<Button x:Name="BRegister"
                         Click="BRegister_Click"
                         Content="Register"
                         Width="100"
+						Background="#54b9f7"
                         Margin="10,0"/>
 				<Button x:Name="BCancel"
                         Click="BCancel_Click"

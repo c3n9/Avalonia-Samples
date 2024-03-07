@@ -16,7 +16,8 @@
 			<RowDefinition />
 			<RowDefinition Height="auto" />
 		</Grid.RowDefinitions>
-		<Grid Grid.ColumnSpan="2" >
+		<Grid Grid.ColumnSpan="2"
+			  Margin="10">
 			<TextBlock Text="{Binding Chatroom.Topic, StringFormat='Topic: {0}'}"
                        HorizontalAlignment="Left"/>
 			<Button x:Name="BCLose"
@@ -28,25 +29,38 @@
 
 		<Grid Grid.Row="1"
               Width="200">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="auto"/>
+				<RowDefinition/>
+			</Grid.RowDefinitions>
+			<TextBlock Text="Employee in chat"
+					   FontSize="22"/>
 			<ItemsControl x:Name="ICEmployees"
-						  ItemsSource="{Binding Employees}">
+						  ItemsSource="{Binding Employees}"
+						  Grid.Row="1">
 				<ItemsControl.ItemTemplate>
 					<DataTemplate>
-						<TextBlock Text="{Binding Name}" />
+						<TextBlock Text="{Binding Name, StringFormat='-> {0}'}" 
+								   FontSize="22"
+								   Margin="5"/>
 					</DataTemplate>
 				</ItemsControl.ItemTemplate>
 			</ItemsControl>
-			<StackPanel VerticalAlignment="Bottom">
+			<StackPanel VerticalAlignment="Bottom"
+						Grid.Row="1">
 				<Button x:Name="BAddUser"
                         Content="Add User"
+						Width="150"
                         Click="BAddUser_Click"
                         BorderThickness="2" />
 				<Button x:Name="BChangeTopic"
                         Content="Change Topic"
+						Width="150"
                         Click="BChangeTopic_Click"
                         BorderThickness="2" />
 				<Button x:Name="BLeave"
                         Content="Leave Chatroom"
+						Width="150"
                         Click="BLeave_Click"
                         BorderThickness="2" />
 			</StackPanel>
@@ -70,6 +84,7 @@
                      AcceptsReturn="True"
                      TextWrapping="Wrap"
                      FontSize="16"
+					 Watermark="Write a message..."
                      Height="100"
                      MaxLength="500"/>
 		</DockPanel>
@@ -81,9 +96,10 @@
 			<ItemsControl.ItemTemplate>
 				<DataTemplate>
 					<StackPanel Orientation="Horizontal">
-						<TextBlock Text="{Binding Date, StringFormat='{}{0:[HH:mm]}'}" />
+						<TextBlock Text="{Binding Date, StringFormat='{}{0:[ddd, MMM d, yyyy HH:mm]}'}"/>
 						<TextBlock Text="{Binding  Sender.Name}"
-                                   Margin="5,0,0,0" />
+                                   Margin="5,0,0,0" 
+								   FontWeight="Bold"/>
 						<TextBlock Text="{Binding Message,StringFormat=': {0}'}"
                                    TextWrapping="Wrap"
                                    Width="460" />

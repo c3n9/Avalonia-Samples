@@ -27,7 +27,7 @@
 				<Button x:Name="BOk"
 						Click="ButtonOk_Click"
 						Content="Ok"
-						Background="LightBlue"
+						Background="#54b9f7"
 						Width="100"
 						Margin="10,0"/>
 				<Button x:Name="BCancel"
@@ -42,7 +42,7 @@
 				<Button x:Name="BRegistration"
 					Content="Registration"
 					Background="Transparent"
-						Foreground="Blue"
+					Foreground="#54b9f7"
 					Click="ButtonRegistration_Click"
 					HorizontalAlignment="Center"/>
 			</StackPanel>
