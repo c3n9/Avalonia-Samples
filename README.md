@@ -3,7 +3,8 @@
 ## Projects
 
 - [CRUD](https://github.com/c3n9/Avalonia-Samples/tree/CRUD): This project focuses on basic CRUD (Create, Read, Update, Delete) operations using Avalonia and PostgreSQL.
-- [ChitChat](https://github.com/c3n9/Avalonia-Samples/tree/ChitChat): ChitChat is a project showcasing chat functionality developed with Avalonia and PostgreSQL.
+- [ChitChat](https://github.com/c3n9/Avalonia-Samples/tree/ChitChat): ChitChat is a project showcasing chat functionality developed with Avalonia and PostgreSQL. This system is designed to support the transmission of messages between individual employees and
+groups of employees.
 
 Feel free to explore each project for more details and contributions.
 
