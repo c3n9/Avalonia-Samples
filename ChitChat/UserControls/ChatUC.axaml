@@ -1,8 +1,98 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:usercontrols="clr-namespace:ChitChat;assembly=ChitChat"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="ChitChat.ChatUC">
-  Welcome to Avalonia!
+             x:Class="ChitChat.ChatUC"
+			 x:DataType="usercontrols:ChatUC">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto" />
+			<ColumnDefinition />
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition />
+			<RowDefinition Height="auto" />
+		</Grid.RowDefinitions>
+		<Grid Grid.ColumnSpan="2" >
+			<TextBlock Text="{Binding Chatroom.Topic, StringFormat='Topic: {0}'}"
+                       HorizontalAlignment="Left"/>
+			<Button x:Name="BCLose"
+                    Content="Close"
+                    Click="BCLose_Click"
+                    HorizontalAlignment="Right"
+                    Width="75"/>
+		</Grid>
+
+		<Grid Grid.Row="1"
+              Width="200">
+			<ItemsControl x:Name="ICEmployees"
+						  ItemsSource="{Binding Employees}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding Name}" />
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+			<StackPanel VerticalAlignment="Bottom">
+				<Button x:Name="BAddUser"
+                        Content="Add User"
+                        Click="BAddUser_Click"
+                        BorderThickness="2" />
+				<Button x:Name="BChangeTopic"
+                        Content="Change Topic"
+                        Click="BChangeTopic_Click"
+                        BorderThickness="2" />
+				<Button x:Name="BLeave"
+                        Content="Leave Chatroom"
+                        Click="BLeave_Click"
+                        BorderThickness="2" />
+			</StackPanel>
+		</Grid>
+		<DockPanel Grid.Row="2"
+                   Grid.ColumnSpan="2">
+			<TextBlock Text=":P"
+                       FontSize="16"
+                       DockPanel.Dock="Left" />
+			<Button x:Name="BSend"
+                    DockPanel.Dock="Right"
+                    Content="Send"
+                    Click="BSend_Click"
+                    Height="100"
+                    Width="75"
+                    BorderThickness="2"
+                    Background="#54b9f7"
+                    BorderBrush="Black"
+                    IsDefault="True" />
+			<TextBox x:Name="TBMessage"
+                     AcceptsReturn="True"
+                     TextWrapping="Wrap"
+                     FontSize="16"
+                     Height="100"
+                     MaxLength="500"/>
+		</DockPanel>
+		<ItemsControl Grid.Row="1"
+                  Grid.Column="1"
+                  x:Name="ICChatMessages"
+				  ItemsSource="{Binding ChatMessages}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+			<ItemsControl.ItemTemplate>
+				<DataTemplate>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock Text="{Binding Date, StringFormat='{}{0:[HH:mm]}'}" />
+						<TextBlock Text="{Binding  Sender.Name}"
+                                   Margin="5,0,0,0" />
+						<TextBlock Text="{Binding Message,StringFormat=': {0}'}"
+                                   TextWrapping="Wrap"
+                                   Width="460" />
+					</StackPanel>
+				</DataTemplate>
+			</ItemsControl.ItemTemplate>
+		</ItemsControl>
+
+
+
+	</Grid>
 </UserControl>

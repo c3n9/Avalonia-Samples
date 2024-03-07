@@ -14,7 +14,7 @@ public partial class MainUC : UserControl
     public MainUC()
     {
         InitializeComponent();
-        using(DBConnection db = new DBConnection())
+        using (DBConnection db = new DBConnection())
         {
             Employee = App.loginEmploee;
             Chatrooms = db.EmployeeChatroom.Where(x => x.EmployeeId == App.loginEmploee.Id).Select(x => x.Chatroom).ToList();
@@ -30,5 +30,13 @@ public partial class MainUC : UserControl
     private void BCloseApplication_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         App.MainWindow.Close();
+    }
+
+    private void DataGrid_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
+    {
+        if (DGChatrooms.SelectedItem is Chatroom chatroom)
+        {
+            App.MainWindow.MainContentPresenter.Content = new ChatUC(chatroom);
+        }
     }
 }

@@ -23,6 +23,7 @@
 			<DataGrid x:Name="DGChatrooms"
 					  ItemsSource="{Binding Chatrooms}"
 					  MinWidth="800"
+					  DoubleTapped="DataGrid_DoubleTapped"
 					  MinHeight="300">
 				<DataGrid.Columns>
 					<DataGridTextColumn Header="Topic" Binding="{Binding Topic}"/>
