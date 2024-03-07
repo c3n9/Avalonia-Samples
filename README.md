@@ -1,4 +1,8 @@
 # Chit-Chat
+To make the communication within the company more efficient, a chat system is developed. This
+system is designed to support the transmission of messages between individual employees and
+groups of employees. To make this possible, the concept of "chat rooms" is used. A chat room always
+includes at least two members. All messages that are sent in a chat room, are visible to all members
 ## Login
 ![image](https://github.com/c3n9/Avalonia-Samples/assets/108518693/ac18090a-ec73-4c2d-829f-2066b2f4d679)
 ## Registration
