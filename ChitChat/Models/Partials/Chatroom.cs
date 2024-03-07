@@ -19,7 +19,11 @@ namespace ChitChat.Models
                     {
                         return string.Empty;
                     }
-                    return message.Message.Substring(0,10) + "...";
+                    if (message.Message.Length <= 10)
+                    {
+                        return message.Message;
+                    }
+                    return message.Message.Substring(0, 10) + "...";
                 }
                 
             }

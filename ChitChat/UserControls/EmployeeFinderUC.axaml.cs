@@ -95,9 +95,12 @@ public partial class EmployeeFinderUC : UserControl
             }
             using (DBConnection db = new DBConnection())
             {
-                var employeeInChatroom = db.EmployeeChatroom.FirstOrDefault(x => x.EmployeeId == employee.Id);
-                if (employeeInChatroom != null)
-                    error += "This user is already in the chat\n";
+                if(contextChatroom.Id != 0)
+                {
+                    var employeeInChatroom = db.EmployeeChatroom.FirstOrDefault(x => x.EmployeeId == employee.Id && x.ChatroomId == contextChatroom.Id);
+                    if (employeeInChatroom != null)
+                        error += "This user is already in the chat\n";
+                }                
             }
             if (!string.IsNullOrWhiteSpace(error))
             {
