@@ -63,6 +63,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.ComponentModel.EventBasedAsync.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.ComponentModel.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.ComponentModel.TypeConverter.dll
+C:\Users\quart\.nuget\packages\system.configuration.configurationmanager\8.0.0\lib\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Configuration.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Console.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Core.dll
@@ -72,6 +73,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Diagnostics.Contracts.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Diagnostics.Debug.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\quart\.nuget\packages\system.diagnostics.eventlog\8.0.0\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Diagnostics.FileVersionInfo.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Diagnostics.Process.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Diagnostics.StackTrace.dll
@@ -169,6 +171,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Security.Cryptography.Encoding.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Security.Cryptography.OpenSsl.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Security.Cryptography.Primitives.dll
+C:\Users\quart\.nuget\packages\system.security.cryptography.protecteddata\8.0.0\lib\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Security.Cryptography.X509Certificates.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Security.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.2\ref\net8.0\System.Security.Principal.dll

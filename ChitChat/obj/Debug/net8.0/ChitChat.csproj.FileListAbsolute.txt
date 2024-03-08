@@ -450,3 +450,8 @@ C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\obj\Debug\net8.0\ChitChat.
 C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\obj\Debug\net8.0\ChitChat.csproj.Up2Date
 C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\obj\Debug\net8.0\ChitChat.genruntimeconfig.cache
 C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\obj\Debug\net8.0\ref\ChitChat.dll
+C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\quart\source\repos\Avalonia-Samples\ChitChat\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll

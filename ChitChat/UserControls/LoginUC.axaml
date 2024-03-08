@@ -3,22 +3,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="ChitChat.UserControls.LoginUC">
+             x:Class="ChitChat.UserControls.LoginUC"
+			 Loaded="UserControl_Loaded">
 	<Grid>
 		<StackPanel VerticalAlignment="Center"
 					HorizontalAlignment="Center"
 					Width="300">
 			<TextBlock Text="Username"/>
 			<TextBox x:Name="TBUsername"
+					 Margin="0,5"
 					 Watermark="Enter username"/>
 			<TextBlock Text="Password"/>
 			<TextBox x:Name="TBPassword"
+					 Margin="0,5"
 					 Watermark="Enter password"
 					 PasswordChar="*">
 			</TextBox>
 			<StackPanel Orientation="Horizontal">
 				<CheckBox x:Name="CBRememberMe"/>
-				<TextBlock Text="RememberMe"
+				<TextBlock Text="Remember me"
 						   Margin="5,0"
 						   VerticalAlignment="Center"/>
 			</StackPanel>
