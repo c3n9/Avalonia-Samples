@@ -10,7 +10,8 @@ groups of employees.
 **Feel free to explore each project for more details and contributions.**
 
 
-## To connect our PostgreSQL database to an Avalonia project
+## ![elephant](https://github.com/c3n9/Avalonia-Samples/assets/108518693/b046124a-db97-469e-b438-3813e70b28da) To connect our PostgreSQL database to an Avalonia project
+
 
 We need to install the following packages in the Avalonia project:
 
