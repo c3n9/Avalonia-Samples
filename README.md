@@ -46,6 +46,8 @@ NuGet\Install-Package Npgsql.EntityFrameworkCore.PostgreSQL -Version 9.0.0-previ
 
 </details>
 
+This command is used for reverse engineering PostgreSQL databases and automatically generating model classes based on the existing database schema.
+
 ```powershell
 dotnet ef dbcontext scaffold "Host=0.0.0.0;Username=postgres;Password=password;Database=ChitChat" Npgsql.EntityFrameworkCore.PostgreSQL --output-dir <Folder where you want to generate classes>
 ```
