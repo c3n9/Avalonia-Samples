@@ -10,7 +10,9 @@ groups of employees.
 **Feel free to explore each project for more details and contributions.**
 
 
-## To connect our PostgreSQL database to an Avalonia project, we need to install the following packages in the Avalonia project:
+## To connect our PostgreSQL database to an Avalonia project
+
+We need to install the following packages in the Avalonia project:
 
 <details>
 <summary>Microsoft.EntityFrameworkCore.Design</summary>
