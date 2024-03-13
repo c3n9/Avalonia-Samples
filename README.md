@@ -7,10 +7,10 @@
 groups of employees.
 - [Hospital](https://github.com/c3n9/Avalonia-Samples/tree/Hospital): Hospital provides a comprehensive view of hospital wards, allowing you to efficiently manage patient occupancy. With our intuitive drag-and-drop feature, you can seamlessly move patients between words (drag&drop).
 
-Feel free to explore each project for more details and contributions.
+**Feel free to explore each project for more details and contributions.**
 
 
-To connect our PostgreSQL database to an Avalonia project, we need to install the following packages in the Avalonia project:
+### To connect our PostgreSQL database to an Avalonia project, we need to install the following packages in the Avalonia project:
 
 <details>
 <summary>Microsoft.EntityFrameworkCore.Design</summary>
