@@ -9,3 +9,48 @@ groups of employees.
 
 Feel free to explore each project for more details and contributions.
 
+
+To connect our PostgreSQL database to an Avalonia project, we need to install the following packages in the Avalonia project:
+
+<details>
+<summary>Microsoft.EntityFrameworkCore.Design</summary>
+  
+To install Microsoft.EntityFrameworkCore.Design package using **.NET CLI**, run the following command:
+
+```bash
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.0-preview.2.24128.4
+```
+
+To install Microsoft.EntityFrameworkCore.Design package using **Package Manager**, run the following command:
+
+```bash
+NuGet\Install-Package Microsoft.EntityFrameworkCore.Design -Version 9.0.0-preview.2.24128.4
+```
+
+</details>
+
+<details>
+<summary>Npgsql.EntityFrameworkCore.PostgreSQL</summary>
+  
+To install Npgsql.EntityFrameworkCore.PostgreSQL package using **.NET CLI**, run the following command:
+
+```bash
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL --version 9.0.0-preview.1
+```
+
+To install Npgsql.EntityFrameworkCore.PostgreSQL package using **Package Manager**, run the following command:
+
+```bash
+NuGet\Install-Package Npgsql.EntityFrameworkCore.PostgreSQL -Version 9.0.0-preview.1
+```
+
+</details>
+
+```powershell
+dotnet ef dbcontext scaffold "Host=0.0.0.0;Username=postgres;Password=password;Database=ChitChat" Npgsql.EntityFrameworkCore.PostgreSQL --output-dir <Folder where you want to generate classes>
+```
+To overwrite existing classes, use the --force option.
+
+```powershell
+dotnet ef dbcontext scaffold "Host=0.0.0.0;Username=postgres;Password=password;Database=ChitChat" Npgsql.EntityFrameworkCore.PostgreSQL --output-dir <Folder where you want to generate classes> --force
+```
