@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{546EAAC9-F6C9-4957-9474-B8C9400BC5DA}|Hospital\\Hospital.csproj|solutionrelative:hospital\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{546EAAC9-F6C9-4957-9474-B8C9400BC5DA}|Hospital\\Hospital.csproj|c:\\users\\quart\\source\\repos\\hospital\\hospital\\marginconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{546EAAC9-F6C9-4957-9474-B8C9400BC5DA}|Hospital\\Hospital.csproj|solutionrelative:hospital\\marginconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{546EAAC9-F6C9-4957-9474-B8C9400BC5DA}|Hospital\\Hospital.csproj|c:\\users\\quart\\source\\repos\\hospital\\hospital\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{546EAAC9-F6C9-4957-9474-B8C9400BC5DA}|Hospital\\Hospital.csproj|solutionrelative:hospital\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 227,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +34,27 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Hospital\\Hospital\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Hospital\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Hospital\\Hospital\\Models\\User.cs",
+              "RelativeToolTip": "Hospital\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T12:09:42.419Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Hospital\\Hospital\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "Hospital\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\quart\\source\\repos\\Hospital\\Hospital\\MainWindow.axaml.cs*",
-              "RelativeToolTip": "Hospital\\MainWindow.axaml.cs*",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAWwBwAAAAxAAAA",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\Hospital\\Hospital\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Hospital\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T15:33:21.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MarginConverter.cs",
-              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\Hospital\\Hospital\\MarginConverter.cs",
-              "RelativeDocumentMoniker": "Hospital\\MarginConverter.cs",
-              "ToolTip": "C:\\Users\\quart\\source\\repos\\Hospital\\Hospital\\MarginConverter.cs",
-              "RelativeToolTip": "Hospital\\MarginConverter.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAqwEIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T15:15:32.594Z",
               "EditorCaption": ""
             },
             {
@@ -67,8 +66,7 @@
               "ToolTip": "C:\\Users\\quart\\source\\repos\\Hospital\\Hospital\\MainWindow.axaml",
               "RelativeToolTip": "Hospital\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-12T14:40:51.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T14:40:51.823Z"
             }
           ]
         }

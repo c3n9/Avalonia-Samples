@@ -8,8 +8,15 @@ namespace Hospital.Models
 {
     public partial class User
     {
+        public User(int id, string name, int palata)
+        {
+            Id = id;
+            Name = name;
+            Palata = palata;
+        }
+
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Palata { get; set; }
+        public int? Palata { get; set; }
     }
 }
