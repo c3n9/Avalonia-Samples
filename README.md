@@ -1,6 +1,4 @@
-# <a href="https://www.avaloniaui.net/">
-    <img src="https://github.com/c3n9/Avalonia-Samples/assets/108518693/ca9608fa-12f0-4260-ab52-5463b32ab82d" alt="avalonia-white-purple" />
-</a> Avalonia projects and test different functions. 
+# ![avalonia-white-purple](https://github.com/c3n9/Avalonia-Samples/assets/108518693/ca9608fa-12f0-4260-ab52-5463b32ab82d) Avalonia projects and test different functions.
 
 **These projects were developed as part of the learning process for Avalonia and PostgreSQL.**
 
