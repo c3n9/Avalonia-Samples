@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\TestApi.csproj",
+      "projectUniqueName": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\TestApi\\TestApi.csproj",
       "projectName": "TestApi",
-      "projectPath": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\TestApi.csproj",
+      "projectPath": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\TestApi\\TestApi.csproj",
       "packagesPath": "C:\\Users\\quart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\obj\\",
+      "outputPath": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\TestApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UmII95WHjOHreVLcjk6BbZqNISq6YGYj/brbxRtFZjhiq+CnvCBiew+5fTqfVRKVeuk4QnF2L9AxK+66P4+6WQ==",
+  "dgSpecHash": "+DmIYf9gcfBdUgcTJca8/o3CKCJ/8mJZT6SqG9yI4feqsk/i50nir8oOH96ziKLV0MfgS92S4tMvpsGD2mSTXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\TestApi.csproj",
+  "projectFilePath": "C:\\Users\\quart\\source\\repos\\Avalonia-Samples\\TestApi\\TestApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quart\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.15\\microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "C:\\Users\\quart\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
