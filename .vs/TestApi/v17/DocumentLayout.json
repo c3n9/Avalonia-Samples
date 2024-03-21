@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\quart\\source\\repos\\TestApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|c:\\users\\quart\\source\\repos\\testapi\\testapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|solutionrelative:testapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|c:\\users\\quart\\source\\repos\\testapi\\testapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|solutionrelative:testapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|c:\\users\\quart\\source\\repos\\testapi\\testapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|solutionrelative:testapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|c:\\users\\quart\\source\\repos\\testapi\\testapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|solutionrelative:testapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|c:\\users\\quart\\source\\repos\\testapi\\testapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CEBC3D3-A6D7-4D7D-A29E-6C30C0FDC7D1}|TestApi\\TestApi.csproj|solutionrelative:testapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TestApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\Models\\User.cs",
+              "RelativeToolTip": "TestApi\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T11:17:39.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "TestApi\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\Controllers\\TestController.cs",
+              "RelativeToolTip": "TestApi\\Controllers\\TestController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T10:53:42.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TestApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TestApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T10:52:39.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\Program.cs",
+              "RelativeDocumentMoniker": "TestApi\\Program.cs",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\Program.cs",
+              "RelativeToolTip": "TestApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T10:53:11.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TestApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\quart\\source\\repos\\TestApi\\TestApi\\appsettings.json",
+              "RelativeToolTip": "TestApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-21T10:53:07.877Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
