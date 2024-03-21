@@ -10,6 +10,7 @@
 groups of employees.
 - [Hospital](https://github.com/c3n9/Avalonia-Samples/tree/Hospital): Hospital provides a comprehensive view of hospital wards, allowing you to efficiently manage patient occupancy. With our intuitive drag-and-drop feature, you can seamlessly move patients between words (drag&drop).
 - [Statistic](https://github.com/c3n9/Avalonia-Samples/tree/Statistic): This project aims to implement various charts using Live Charts 2, a powerful charting library for .NET applications.
+- [TestApi](https://github.com/c3n9/Avalonia-Samples/tree/TestApi): This API is designed for CRUD operations. Data transmission occurs via the request body.
 **Feel free to explore each project for more details and contributions.**
 
 
